@@ -7,13 +7,16 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
+  "description": "A simple backend server using Express and SQLite.",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }

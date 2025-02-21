@@ -1,60 +1,61 @@
-import express from "express";
-import sqlite3 from "sqlite3";
-import { open } from "sqlite";
-import cors from "cors";
-import bodyParser from "body-parser";
+const express = require('express');
+const sqlite3 = require('sqlite3').verbose();
+const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = 3000;
+const dbFile = 'database.db';
 
-app.use(cors());
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-async function initDB() {
-    return open({
-        filename: "./database.db",
-        driver: sqlite3.Database
-    });
-}
+// Initialize the SQLite database
+const db = new sqlite3.Database(dbFile, (err) => {
+    if (err) {
+        console.error(err.message);
+    }
+    console.log('Connected to the SQLite database.');
+});
 
-(async () => {
-    const db = await initDB();
-    await db.exec(
-        `CREATE TABLE IF NOT EXISTS items (
-             id INTEGER PRIMARY KEY AUTOINCREMENT, 
-             name TEXT, 
-             quantity INTEGER, 
-             price REAL
-         )`
-    );
+// Create table if it doesn't exist
+db.run(`CREATE TABLE IF NOT EXISTS items (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    quantity INTEGER NOT NULL,
+    description TEXT
+);`);
 
-    app.post("/add", async (req, res) => {
-        const { name, quantity, price } = req.body;
-        try {
-            const result = await db.run(
-                "INSERT INTO items (name, quantity, price) VALUES (?, ?, ?)",
-                [name, quantity, price]
-            );
-            res.json({ id: result.lastID });
-        } catch (err) {
-            res.status(500).json({ error: err.message });
+// CRUD operations
+app.post('/add', (req, res) => {
+    const { name, quantity, description } = req.body;
+    db.run(`INSERT INTO items (name, quantity, description) VALUES (?, ?, ?)`, [name, quantity, description], function(err) {
+        if (err) {
+            return res.status(500).send(err.message);
         }
+        res.status(201).json({ id: this.lastID });
     });
+});
 
-    app.get("/items", async (req, res) => {
-        const items = await db.all("SELECT * FROM items");
-        res.json(items);
-    });
-
-    app.delete("/delete/:id", async (req, res) => {
-        const { id } = req.params;
-        try {
-            const result = await db.run("DELETE FROM items WHERE id = ?", id);
-            res.json({ deleted: result.changes });
-        } catch (err) {
-            res.status(500).json({ error: err.message });
+app.get('/items', (req, res) => {
+    db.all(`SELECT * FROM items`, [], (err, rows) => {
+        if (err) {
+            return res.status(500).send(err.message);
         }
+        res.json(rows);
     });
+});
 
-    app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
-})();
+app.delete('/delete/:id', (req, res) => {
+    const { id } = req.params;
+    db.run(`DELETE FROM items WHERE id = ?`, id, function(err) {
+        if (err) {
+            return res.status(500).send(err.message);
+        }
+        res.json({ deletedID: id });
+    });
+});
+
+// Start the server
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
