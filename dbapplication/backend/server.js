@@ -1,6 +1,7 @@
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const app = express();
 const db = new sqlite3.Database('your-database-file.db');
@@ -14,6 +15,9 @@ db.run(`CREATE TABLE IF NOT EXISTS users (
 
 // Middleware to parse JSON
 app.use(bodyParser.json());
+
+// Middleware to serve static files
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Endpoint to create a record
 app.post('/users', (req, res) => {

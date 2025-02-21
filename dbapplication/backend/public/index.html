@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Database Test</h1>
+        <h2>Add User</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="address" placeholder="Address">
+        <button onclick="addUser()">Add User</button>
+        <h2>Users</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="userTable">
+                <!-- Users will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function addUser() {
+            const name = document.getElementById('name').value;
+            const address = document.getElementById('address').value;
+
+            fetch('/users', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name, address })
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+                loadUsers();
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function loadUsers() {
+            fetch('/users')
+            .then(response => response.json())
+            .then(data => {
+                const userTable = document.getElementById('userTable');
+                userTable.innerHTML = '';
+                data.forEach(user => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${user.id}</td>
+                        <td>${user.name}</td>
+                        <td>${user.address}</td>
+                        <td><button onclick="deleteUser(${user.id})">Delete</button></td>
+                    `;
+                    userTable.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function deleteUser(id) {
+            fetch(`/users/${id}`, {
+                method: 'DELETE'
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+                loadUsers();
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        // Load users when the page loads
+        window.onload = loadUsers;
+    </script>
+</body>
+</html>
