@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 
 const app = express();
-const db = new sqlite3.Database('your-database-file.db');
+const db = new sqlite3.Database('database-file.db');
 
 // Create the users table if it doesn't exist
 db.run(`CREATE TABLE IF NOT EXISTS users (
