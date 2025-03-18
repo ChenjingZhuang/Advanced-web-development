@@ -1,18 +1,23 @@
-<<<<<<< HEAD
-# React + Vite
+# Project phase 1 - Definition and planning
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Add something
 
-Currently, two official plugins are available:
+## 1. User Personas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add something
 
-## To create the application:
+## 2. Use Cases and User Flows
 
-1. Run the following command to create the `introdemo` application:
-   ```bash
-   npm create vite@latest introdemo --template react
-=======
-# Advanced-web-development-
->>>>>>> fb22bb2 (Add all project files including introdemo)
+Add something
+
+## 3. UI Prototypes
+
+Add something
+
+## 4. Information Architecture and Technical Design
+
+Add something
+
+## 5. Project Management and User Testing
+
+Add something
