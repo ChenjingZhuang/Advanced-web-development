@@ -100,7 +100,6 @@ The **information architecture and technical design** will be **comprehensive, d
 ## **5. Project Management and User Testing**
 
 - **Project Management:**  
-  - **Timeline:** A well-structured schedule from defining personas to launching the site:
     - **Weeks 1-2:** Define personas and use cases, finalize user flows.
     - **Weeks 3-4:** Develop basic front-end structure and UI prototypes.
     - **Weeks 5-6:** Build back-end functionality, integrate APIs, and refine UI.
