@@ -96,15 +96,15 @@ The UI will be **comprehensive, detailed, and well-documented**, with wireframes
 The **information architecture and technical design** will be **comprehensive, detailed, and well-documented** to ensure easy navigation and a smooth user experience.
 
 ---
-
 ## **5. Project Management and User Testing**
 
-- **Time Log: Maintained in a separate GitHub page.**
-**Development Phases**:
-**Phase 1**: Definition and Planning
-**Phase 2**: Basic structure and Main function
-**Phase 3**: Advanced features and optimization
-**Phase 4**: Presentation
+- **Time Log:** Maintained in a separate GitHub page.
+
+### **Development Phases**  
+- **Phase 1:** Definition and Planning  
+- **Phase 2:** Basic Structure and Main Function  
+- **Phase 3:** Advanced Features and Optimization  
+- **Phase 4:** Presentation  
 
 - **User Testing:**  
   I will conduct **two rounds of user testing**:
