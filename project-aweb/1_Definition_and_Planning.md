@@ -5,7 +5,9 @@
    - [2. Use Cases and Usage Scenarios](#2-use-cases-and-usage-scenarios)  
    - [3. UI Prototypes](#3-ui-prototypes)  
    - [4. Information Architecture and Technical Design](#4-information-architecture-and-technical-design)  
-   - [5. Project Management and User Testing](#5-project-management-and-user-testing)  # **Phase 1 - Definition and Planning**
+   - [5. Project Management and User Testing](#5-project-management-and-user-testing)
+
+# **Phase 1 - Definition and Planning**
 
 ---
 
