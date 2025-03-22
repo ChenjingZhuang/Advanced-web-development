@@ -99,11 +99,12 @@ The **information architecture and technical design** will be **comprehensive, d
 
 ## **5. Project Management and User Testing**
 
-- **Project Management:**  
-    - **Weeks 1-2:** Define personas and use cases, finalize user flows.
-    - **Weeks 3-4:** Develop basic front-end structure and UI prototypes.
-    - **Weeks 5-6:** Build back-end functionality, integrate APIs, and refine UI.
-    - **Weeks 7-8:** Conduct user testing, collect feedback, and improve the design.
+- **Time Log: Maintained in a separate GitHub page.**
+**Development Phases**:
+**Phase 1**: Definition and Planning
+**Phase 2**: Basic structure and Main function
+**Phase 3**: Advanced features and optimization
+**Phase 4**: Presentation
 
 - **User Testing:**  
   I will conduct **two rounds of user testing**:
