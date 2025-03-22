@@ -34,8 +34,6 @@
   - **Pain Points:** Overwhelmed by the variety of dog training resources; needs a simplified, accessible guide.
   - **Tech-savviness:** Average, uses mobile apps and social media frequently.
 
-**Comprehensive, detailed, and well-documented personas** that reflect different types of users will allow me to design a more intuitive and user-centered website.
-
 ---
 
 ## **2. Use Cases and Usage Scenarios**
@@ -70,7 +68,6 @@
     - **Contact Page** → Fill out a query form → Submit question about dog behavior → Receive expert advice via email.
     - **Outcome:** Helen gets a personalized solution from an expert to apply to her dog’s behavior.
 
-**Detailed, comprehensive, and well-documented use cases** will allow me to clearly outline user needs and design an effective user experience.
 
 ---
 
@@ -81,9 +78,7 @@
 - **Interactive Elements:** Interactive buttons that highlight when hovered, drop-down menus for categories, and a filter system for research-based articles.
 - **Content Sections:** Well-organized areas with headings, short descriptions, and clear calls to action for further reading or interaction.
 - **Responsive Design:** Mobile-friendly layout that adjusts content for different screen sizes and orientations.
-
-The UI will be **comprehensive, detailed, and well-documented**, with wireframes showing navigation and user interactions.
-
+(Prototypes will be created using Figma.)
 ---
 
 ## **4. Information Architecture and Technical Design**
@@ -101,8 +96,6 @@ The UI will be **comprehensive, detailed, and well-documented**, with wireframes
   
 - **Mobile and Accessibility Considerations:**  
   The design will be mobile-first, and I’ll ensure high **color contrast** for readability, **text alternatives** for images, and **accessible navigation** for users with disabilities.
-
-The **information architecture and technical design** will be **comprehensive, detailed, and well-documented** to ensure easy navigation and a smooth user experience.
 
 ---
 ## **5. Project Management and User Testing**
