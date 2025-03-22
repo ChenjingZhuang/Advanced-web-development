@@ -78,7 +78,7 @@
 - **Interactive Elements:** Interactive buttons that highlight when hovered, drop-down menus for categories, and a filter system for research-based articles.
 - **Content Sections:** Well-organized areas with headings, short descriptions, and clear calls to action for further reading or interaction.
 - **Responsive Design:** Mobile-friendly layout that adjusts content for different screen sizes and orientations.
-(Prototypes will be created using Figma.)
+- (Prototypes will be created using Figma.)
 ---
 
 ## **4. Information Architecture and Technical Design**
