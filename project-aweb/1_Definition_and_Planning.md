@@ -1,4 +1,11 @@
-# **Phase 1 - Definition and Planning**
+# **Table of Contents**
+
+1. [Phase 1 - Definition and Planning](#phase-1---definition-and-planning)  
+   - [1. User Personas](#1-user-personas)  
+   - [2. Use Cases and Usage Scenarios](#2-use-cases-and-usage-scenarios)  
+   - [3. UI Prototypes](#3-ui-prototypes)  
+   - [4. Information Architecture and Technical Design](#4-information-architecture-and-technical-design)  
+   - [5. Project Management and User Testing](#5-project-management-and-user-testing)  # **Phase 1 - Definition and Planning**
 
 ---
 
@@ -100,7 +107,7 @@ The **information architecture and technical design** will be **comprehensive, d
 
 - **Time Log:** Maintained in a separate GitHub page.
 
-### **Development Phases**  
+- **Development Phases**  
 - **Phase 1:** Definition and Planning  
 - **Phase 2:** Basic Structure and Main Function  
 - **Phase 3:** Advanced Features and Optimization  
