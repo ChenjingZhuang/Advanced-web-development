@@ -32,7 +32,7 @@
   - **Needs:** Basic dog care and behavior information.
   - **Goals:** To understand her dog's needs and create a happy and healthy environment.
   - **Pain Points:** Overwhelmed by the variety of dog training resources; needs a simplified, accessible guide.
-  - **Tech-savviness:** Average, uses mobile apps and social media frequently.
+  - **Tech-savviness:** Average, uses websites and social media frequently.
 
 ---
 
@@ -41,7 +41,7 @@
 - **Use Case 1: Helen Searching for Dog Behavior Information**  
   - **Goal:** Helen wants to find out why her dog barks excessively.
   - **Flow:**  
-    - **Home Page** → Search for "barking behavior" → View relevant articles → Learn about causes and solutions.
+    - **Homepage** → Search for "barking behavior" → View relevant articles → Learn about causes and solutions.
     - **Outcome:** Helen reads through the article and applies the knowledge to address her dog’s behavior.
 
 - **Use Case 2: John Tracking Client Progress**  
@@ -53,7 +53,7 @@
 - **Use Case 3: Sarah Understanding Basic Dog Commands**  
   - **Goal:** Sarah is looking for simple dog training tutorials.
   - **Flow:**  
-    - **Home Page** → Training Section → Select “Basic Commands” → Follow the guide with step-by-step instructions.
+    - **Homepage** → Training Section → Select “Basic Commands” → Follow the guide with step-by-step instructions.
     - **Outcome:** Sarah feels confident teaching her dog basic commands.
 
 - **Use Case 4: John Engaging with Advanced Dog Behavior Studies**  
@@ -68,39 +68,38 @@
     - **Contact Page** → Fill out a query form → Submit question about dog behavior → Receive expert advice via email.
     - **Outcome:** Helen gets a personalized solution from an expert to apply to her dog’s behavior.
 
-
 ---
 
 ## **3. UI Prototypes**
 
-- **Homepage Layout:** Simple, clean design with a prominent search bar at the top and key sections like "Dog Behaviors," "Training Tips," and "Resources."
-- **Search Functionality:** A search bar that lets users quickly find articles based on their questions (e.g., “dog barking” or “dog training tips”).
-- **Interactive Elements:** Interactive buttons that highlight when hovered, drop-down menus for categories, and a filter system for research-based articles.
-- **Content Sections:** Well-organized areas with headings, short descriptions, and clear calls to action for further reading or interaction.
-- **Responsive Design:** Mobile-friendly layout that adjusts content for different screen sizes and orientations.
+- **Homepage Layout:** A clean design with a prominent search bar at the top. Sections like "Dog Behaviors," "Training Tips," "Advanced Research," and "Expert Advice" will be clearly displayed.
+- **Search Functionality:** The search bar allows users to quickly find articles based on their questions (e.g., “dog barking” or “dog training tips”).
+- **Interactive Elements:** Hover effects on buttons, drop-down menus for categories, and a filtering system for research-based articles.
+- **Content Sections:** Organized with headings, brief descriptions, and clear calls to action for further exploration.
+- **Responsive Design:** The website will adjust seamlessly for different screen sizes, ensuring a good user experience across desktops, laptops, and tablets.
 - (Prototypes will be created using Figma.)
+
 ---
 
 ## **4. Information Architecture and Technical Design**
 
 - **Information Architecture (IA):**  
-  The website will have a clear and logical structure:
-  - **Homepage** → **Search Bar** → **Main Sections**: Dog Behaviors, Training Tips, Resources, and Contact.  
-  - Each section will have subsections (e.g., under Dog Behaviors: Barking, Chewing, Play Behavior).
-  
-- **Technical Design:**  
-  - **Front-End**: HTML5, CSS3, JavaScript (for interactivity). Using frameworks like **React** or **Vue.js** to enhance dynamic content loading and responsiveness.
-  - **Back-End**: **Node.js with Express** to manage user data, like saving progress for dog behavior logs and providing expert advice.  
-  - **Database**: MongoDB to store user interactions, behavior logs, and educational content.
-  - **API Integration**: Use REST APIs for fetching relevant dog behavior articles and tips.
-  
-- **Mobile and Accessibility Considerations:**  
-  The design will be mobile-first, and I’ll ensure high **color contrast** for readability, **text alternatives** for images, and **accessible navigation** for users with disabilities.
+  The website structure will be clear and user-friendly:
+  - **Homepage** → **Search Bar** → **Main Sections**: Dog Behaviors, Training Tips, Advanced Research, Expert Advice, and Contact.  
+  - Each section will contain subsections, such as **Dog Behaviors**: Barking, Chewing, Play Behavior, etc.
 
----
+- **Technical Design:**  
+  - **Front-End**: HTML5, CSS3, JavaScript (for interactive elements). Using **React** to build a dynamic and fast-loading website.
+  - **Back-End**: **Node.js with Express** to manage user data, such as saving dog behavior logs and delivering expert advice.  
+  - **Database**: **MongoDB** will store articles, user interactions, and behavior logs.
+  - **API Integration**: REST APIs will fetch and display relevant dog behavior content dynamically.
+  
+- **Accessibility Considerations:**  
+  The website will prioritize accessibility with features like high **color contrast**, **text alternatives** for images, **clear navigation**, and **keyboard accessibility**.
+
 ## **5. Project Management and User Testing**
 
-- **Time Log:** Maintained in a separate GitHub page.
+- **Time Log:** Maintained on a separate GitHub page.
 
 - **Development Phases**  
 - **Phase 1:** Definition and Planning  
@@ -110,8 +109,7 @@
 
 - **User Testing:**  
   I will conduct **two rounds of user testing**:
-    1. **Round 1:** Focused on navigation and clarity. Will involve observing users as they search for dog behaviors and navigate between sections.
-    2. **Round 2:** Focused on advanced content interaction. Users will test logging progress and filtering advanced behavior studies.
-  
-  After gathering feedback, I’ll **refine** the design based on users' experiences, making necessary adjustments to enhance usability and engagement.
+    1. **Round 1:** Focused on navigation and clarity. Will involve users trying to search for dog behaviors and navigating between sections.
+    2. **Round 2:** Focused on engaging with advanced content. Users will interact with the progress tracking system and filter advanced studies.
 
+  After gathering feedback, I’ll **refine** the design based on the users' experiences, making any necessary adjustments to improve usability.
