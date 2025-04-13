@@ -18,12 +18,12 @@
 | 26.3.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 27.3.2025 | 1 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 29.3.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
-| 01.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
+| 01.04.2025 | 3 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 02.04.2025 | 1 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 03.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 04.04.2025 | 1 | Planning the phase 2  | 2 Basic structure and main functionalities  |
-| 06.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
+| 06.04.2025 | 4 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 09.04.2025 | 1 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 10.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
-| 12.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
-| 13.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
+| 12.04.2025 | 3 | Planning the phase 2  | 2 Basic structure and main functionalities  |
+| 13.04.2025 | 5 | Planning the phase 2  | 2 Basic structure and main functionalities  |
