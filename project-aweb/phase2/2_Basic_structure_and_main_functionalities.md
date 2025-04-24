@@ -53,6 +53,7 @@ pool.connect()
 ---
 
 ## 3. Frontend
+**Hosted on GitHub:** [https://github.com/ChenjingZhuang/frontend](https://github.com/ChenjingZhuang/frontend)
 
 The frontend is built using **React.js**, which handles the user interface of the Dog’s Language project. The main components include:
 
