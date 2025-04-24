@@ -23,7 +23,7 @@ The application is deployed to Azure, leveraging the platform’s scalability an
 
 ## 2. Backend
 
-**Hosted on GitHub:** [https://github.com/yourusername/dogfacts-backend]([https://github.com/yourusername/dogfacts-backend](https://github.com/ChenjingZhuang/backend-))
+**Hosted on GitHub:** [https://github.com/yourusername/dogfacts-backend](https://github.com/ChenjingZhuang/backend-)
 
 ### **API Setup**
 The backend of the Dog’s Language project is powered by **Express.js** to handle requests and **PostgreSQL** as the database. The server has a simple structure with two key routes: registration and login.
