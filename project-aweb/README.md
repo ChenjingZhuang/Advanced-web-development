@@ -27,3 +27,7 @@
 | 10.04.2025 | 2 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 12.04.2025 | 3 | Planning the phase 2  | 2 Basic structure and main functionalities  |
 | 13.04.2025 | 5 | Planning the phase 2  | 2 Basic structure and main functionalities  |
+| 15.04.2025 | 1 | Fixing  | 2 Basic structure and main functionalities  |
+| 20.04.2025 | 3 | Fixing  | 2 Basic structure and main functionalities  |
+| 22.04.2025 | 3 | Fixing  | 2 Basic structure and main functionalities  |
+| 23.04.2025 | 3 | Fixing  | 2 Basic structure and main functionalities  |
