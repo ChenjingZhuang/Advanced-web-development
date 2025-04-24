@@ -17,7 +17,9 @@ The development environment used for the project is based on the following tools
 The application is deployed to Azure, leveraging the platform’s scalability and robustness for web hosting and database management.
 **Azure Addresses:**
 - **Frontend URL:** [https://white-sea-005d2ea03.6.azurestaticapps.net/](https://white-sea-005d2ea03.6.azurestaticapps.net/)
+- **Hosted on GitHub:** [https://github.com/ChenjingZhuang/frontend](https://github.com/ChenjingZhuang/frontend)
 - **Backend URL:** [https://dogfacts-backend.azurewebsites.net/](https://dogfacts-backend.azurewebsites.net/)
+- **Hosted on GitHub:** [https://github.com/ChenjingZhuang/backend-](https://github.com/ChenjingZhuang/backend-)
 - **Database:** Connected to Azure PostgreSQL for users information and efficient dog fact storage and retrieval.
 ## 2. Backend
 
