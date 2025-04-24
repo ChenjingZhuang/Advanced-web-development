@@ -1,10 +1,8 @@
-Certainly! Below is the markdown version of the **Dog's Language** project progress that you can use for your Phase 2 report:
-
-```markdown
 # Project Phase 2 - Basic Structure and Main Functionalities
 
 ## 1. Environment
 
+### Local Development
 The development environment used for the project is based on the following tools and technologies:
 
 - **Operating System**: macOS
@@ -15,9 +13,17 @@ The development environment used for the project is based on the following tools
 - **Database**: PostgreSQL
 - **Other Tools**: npm (for package management), dotenv (for environment variable management)
 
----
+### Cloud Deployment
+The application is deployed to Azure, leveraging the platform’s scalability and robustness for web hosting and database management.
+
+**Azure Addresses:**
+- **Frontend URL:** [https://dogs-language-app.azurestaticapps.net](https://dogs-language-app.azurestaticapps.net)
+- **Backend URL:** [https://dogs-language-backend.azurewebsites.net](https://dogs-language-backend.azurewebsites.net)
+- **Database:** Connected to Azure PostgreSQL for users information and efficient dog fact storage and retrieval.
 
 ## 2. Backend
+
+**Hosted on GitHub:** [https://github.com/yourusername/dogfacts-backend](https://github.com/yourusername/dogfacts-backend)
 
 ### **API Setup**
 The backend of the Dog’s Language project is powered by **Express.js** to handle requests and **PostgreSQL** as the database. The server has a simple structure with two key routes: registration and login.
