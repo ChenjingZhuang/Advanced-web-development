@@ -15,15 +15,13 @@ The development environment used for the project is based on the following tools
 
 ### Cloud Deployment
 The application is deployed to Azure, leveraging the platform’s scalability and robustness for web hosting and database management.
-
 **Azure Addresses:**
-- **Frontend URL:** [https://dogs-language-app.azurestaticapps.net]([https://dogs-language-app.azurestaticapps.net](https://white-sea-005d2ea03.6.azurestaticapps.net/))
-- **Backend URL:** [https://dogs-language-backend.azurewebsites.net](https://dogs-language-backend.azurewebsites.net)
+- **Frontend URL:** [https://white-sea-005d2ea03.6.azurestaticapps.net/](https://white-sea-005d2ea03.6.azurestaticapps.net/)
+- **Backend URL:** [https://dogfacts-backend.azurewebsites.net/](https://dogfacts-backend.azurewebsites.net/)
 - **Database:** Connected to Azure PostgreSQL for users information and efficient dog fact storage and retrieval.
-
 ## 2. Backend
 
-**Hosted on GitHub:** [https://github.com/yourusername/dogfacts-backend](https://github.com/ChenjingZhuang/backend-)
+**Hosted on GitHub:** [https://github.com/ChenjingZhuang/backend-](https://github.com/ChenjingZhuang/backend-)
 
 ### **API Setup**
 The backend of the Dog’s Language project is powered by **Express.js** to handle requests and **PostgreSQL** as the database. The server has a simple structure with two key routes: registration and login.
