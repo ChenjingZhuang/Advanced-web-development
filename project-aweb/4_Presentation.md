@@ -8,7 +8,7 @@
 
 ## 📝 Project overview
 
-This project is a web application designed to help dog owners better understand their dogs' body language and sounds.  
+This project is a web application designed to help dog owners better understand their dogs.  
 The target users are dog lovers, pet owners, and anyone curious about dog behavior.  
 The app promotes better communication and stronger bonds between humans and dogs.
 
