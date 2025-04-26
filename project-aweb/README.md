@@ -31,3 +31,7 @@
 | 20.04.2025 | 3 | Fixing  | 2 Basic structure and main functionalities  |
 | 22.04.2025 | 3 | Fixing  | 2 Basic structure and main functionalities  |
 | 23.04.2025 | 3 | Fixing  | 2 Basic structure and main functionalities  |
+| 24.04.2025 | 5 | Planning the phase 3 & 4  | 3_Extra_Feature_or_Improvement & 4_Presentation information  |
+| 25.04.2025 | 5 | Planning the phase 3 & 4   | 3_Extra_Feature_or_Improvement & 4_Presentation information  |
+| 26.04.2025 | 5 | Planning the phase 3 & 4  | 3_Extra_Feature_or_Improvement & 4_Presentation information  |
+| 27.04.2025 | 5 | Planning the phase 3 & 4  | 3_Extra_Feature_or_Improvement & 4_Presentation information  |
