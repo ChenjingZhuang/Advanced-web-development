@@ -71,16 +71,40 @@ The app promotes better communication and stronger bonds between humans and dogs
 
 | Date       | Time | Task                                |
 |------------|------|-------------------------------------|
-| 2.4.2025   | 3h   | Defined use cases and project plan  |
-| 4.4.2025   | 2h   | Set up basic page layout and routing|
-| 7.4.2025   | 4h   | Built login and register components |
-| 9.4.2025   | 5h   | Created AuthContext and NavBar      |
-| 11.4.2025  | 6h   | Developed CreatePost and PostList   |
-| 13.4.2025  | 3h   | Refined UI and CSS                  |
-| 15.4.2025  | 4h   | Handled post editing functionality  |
-| 18.4.2025  | 5h   | Testing and bug fixes               |
-| 21.4.2025  | 4h   | Extra polishing and documentation  |
-| **Total**  | **36h** |                             |
+| 10.03.2025 | 2h   | Planning Phase 1: Defined User Personas |
+| 11.03.2025 | 2h   | Planning Phase 1: Defined User Personas |
+| 12.03.2025 | 1h   | Planning Phase 1: Defined Use Cases and User Flows |
+| 13.03.2025 | 2h   | Planning Phase 1: Defined Use Cases and User Flows |
+| 15.03.2025 | 2h   | Planning Phase 1: Defined UI Prototypes |
+| 17.03.2025 | 1h   | Planning Phase 1: Defined UI Prototypes |
+| 18.03.2025 | 2h   | Planning Phase 1: Defined Information Architecture and Technical Design |
+| 19.03.2025 | 2h   | Planning Phase 1: Defined Information Architecture and Technical Design |
+| 20.03.2025 | 2h   | Planning Phase 1: Defined Information Architecture and Technical Design |
+| 21.03.2025 | 3h   | Planning Phase 1: Basic structure and main functionalities |
+| 22.03.2025 | 2h   | Planning Phase 1: Basic structure and main functionalities |
+| 23.03.2025 | 2h   | Planning Phase 2: Basic structure and main functionalities |
+| 24.03.2025 | 1h   | Planning Phase 2: Basic structure and main functionalities |
+| 26.03.2025 | 2h   | Planning Phase 2: Basic structure and main functionalities |
+| 27.03.2025 | 1h   | Planning Phase 2: Basic structure and main functionalities |
+| 29.03.2025 | 2h   | Planning Phase 2: Basic structure and main functionalities |
+| 01.04.2025 | 3h   | Planning Phase 2: Basic structure and main functionalities |
+| 02.04.2025 | 1h   | Planning Phase 2: Basic structure and main functionalities |
+| 03.04.2025 | 2h   | Planning Phase 2: Basic structure and main functionalities |
+| 04.04.2025 | 1h   | Planning Phase 2: Basic structure and main functionalities |
+| 06.04.2025 | 4h   | Planning Phase 2: Basic structure and main functionalities |
+| 09.04.2025 | 1h   | Planning Phase 2: Basic structure and main functionalities |
+| 10.04.2025 | 2h   | Planning Phase 2: Basic structure and main functionalities |
+| 12.04.2025 | 3h   | Planning Phase 2: Basic structure and main functionalities |
+| 13.04.2025 | 5h   | Planning Phase 2: Basic structure and main functionalities |
+| 15.04.2025 | 1h   | Fixing: Basic structure and main functionalities |
+| 20.04.2025 | 3h   | Fixing: Basic structure and main functionalities |
+| 22.04.2025 | 3h   | Fixing: Basic structure and main functionalities |
+| 23.04.2025 | 3h   | Fixing: Basic structure and main functionalities |
+| 24.04.2025 | 5h   | Planning Phase 3 & 4: Extra Feature/Improvement & Presentation information |
+| 25.04.2025 | 5h   | Planning Phase 3 & 4: Extra Feature/Improvement & Presentation information |
+| 26.04.2025 | 5h   | Planning Phase 3 & 4: Extra Feature/Improvement & Presentation information |
+| 27.04.2025 | 5h   | Planning Phase 3 & 4: Extra Feature/Improvement & Presentation information |
+| **Total**  | **86h** | |
 
 ---
 
