@@ -46,9 +46,11 @@
 - Create and Edit Post functionality
 
 ![Homepage](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/homepage.png)
-![Login & Register](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/login%26R.png)
+![R Image](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/R.png)
 ![Login](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/login-.png)
-![Post Detail](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/post-detail.png)
+![Login & Register](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/login%26R.png)
 ![Post](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/post.png)
+![Post Detail](https://github.com/ChenjingZhuang/Advanced-web-development/blob/main/project-aweb/post-detail.png)
+
 
 
