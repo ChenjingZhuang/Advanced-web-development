@@ -35,7 +35,7 @@ The app promotes better communication and stronger bonds between humans and dogs
 - **Post features**: Create and edit posts for authenticated users.
 - **Component structure**: Modular, maintainable design.
 - **Styling**: Custom CSS.
-- **Backend**: Not yet included (planned for future).
+- **Backend**: Node + PostgreSQL on the azure portal.    dogs.postgres.database.azure.com
 
 ---
 
@@ -62,7 +62,6 @@ The app promotes better communication and stronger bonds between humans and dogs
 **Future improvements:**  
 - Connect to real backend with database.  
 - Add comments and likes for posts.  
-- Mobile responsiveness enhancements.  
 - Admin features for post moderation.
 
 ---
