@@ -22,6 +22,7 @@
 - Authenticated users can create new posts
 - Users can edit their own posts
 [New Frontend Repository](https://github.com/ChenjingZhuang/newfrontend)
+
 [New Backend Repository](https://github.com/ChenjingZhuang/newbackend)
 
 **Component structure**:  
